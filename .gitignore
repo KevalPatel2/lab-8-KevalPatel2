@@ -1,1 +1,35 @@
-".vs/" 
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.cache
+*.pdb
+*.opendb
+
+# Ignore build output
+bin/
+obj/
+*.dll
+*.exe
+*.log
+*.sdf
+*.db
+
+# Ignore NuGet dependencies
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore configuration & secrets
+appsettings.json
+appsettings.*.json
+secrets.json
+
+# Ignore IDE settings
+*.vscode/
+.idea/
+
+# Ignore frontend build output
+node_modules/
+dist/
+wwwroot/
